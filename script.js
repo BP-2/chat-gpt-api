@@ -6,7 +6,7 @@ import readline from "readline"
 
 const openAi = new OpenAIApi(
   new Configuration({
-    apiKey: process.env.OPEN_AI_API_KEY,
+    apiKey: process.env.API_KEY,
   })
 )
 
@@ -24,3 +24,5 @@ userInterface.on("line", async input => {
   console.log(response.data.choices[0].message.content)
   userInterface.prompt()
 })
+
+

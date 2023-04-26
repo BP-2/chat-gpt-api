@@ -1,11 +1,12 @@
 {
   "name": "chat-gpt-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "testing",
   "main": "script.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node script.js"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,13 @@
   "dependencies": {
     "dotenv": "^16.0.3",
     "openai": "^3.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebDevSimplified/chat-gpt-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WebDevSimplified/chat-gpt-api/issues"
+  },
+  "homepage": "https://github.com/WebDevSimplified/chat-gpt-api#readme"
 }
